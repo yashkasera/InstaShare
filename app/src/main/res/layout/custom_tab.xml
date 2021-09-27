@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_extra_large"
+    android:layout_marginHorizontal="@dimen/margin_large"
+    android:layout_marginTop="@dimen/margin_extra_large"
+    android:background="@drawable/tab_background"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tab_background_selector_left"
+        android:contentDescription="@string/phone"
+        android:gravity="center"
+        android:src="@drawable/ic_phone"
+        app:tint="@color/colorPrimary" />
+
+    <ImageButton
+        android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/instagram"
+        android:gravity="center"
+        android:src="@drawable/ic_instagram"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/item3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/whatsapp"
+        android:gravity="center"
+        android:src="@drawable/ic_whatsapp"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/item4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/snapchat"
+        android:gravity="center"
+        android:src="@drawable/ic_snapchat"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/item5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/link"
+        android:gravity="center"
+        android:src="@drawable/ic_link"
+        app:tint="@color/white" />
+</LinearLayout>

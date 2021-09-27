@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InstaShare</string>
+    <string name="phone">Phone</string>
+    <string name="instagram">Instagram</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="snapchat">Snapchat</string>
+    <string name="link">Link</string>
+    <string name="scan">Scan</string>
+    <string name="settings">Settings</string>
+    <string name="save">SAVE</string>
+    <string name="view_scanned_tags">View Scanned Tags</string>
+    <string name="action">Action</string>
+</resources>
